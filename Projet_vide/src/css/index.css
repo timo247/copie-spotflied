@@ -1,6 +1,30 @@
 @import 'normalize.css';
 @import 'nav.css';
 
+html, body {
+  height: 100%;
+}
+
 body {
-  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background: #ff00ff;
+}
+
+main {
+  background: #0000ff;
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+
+footer {
+  width: 100%;
+  background: #00ffff;
 }
