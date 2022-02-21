@@ -2,7 +2,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  // Development mode for NodeJS
+  // Development mode for Webpack
   mode: 'development',
 
   // Entry point for the compilation
@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: "asset/inline",
+        type: 'asset/inline',
       },
     ],
   },
