@@ -1,0 +1,5 @@
+# Ignore npm config.
+/node_modules
+
+.DS_Store
+.tool-versions
